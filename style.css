@@ -1,0 +1,59 @@
+
+body {
+  background-color: blue;
+}
+.guy {
+  background-image: url("images/Pennywise-icon.png");
+  background-repeat: no-repeat;
+
+}
+.guy2 {
+  background-image: url("images/Male-Face-B5-icon (1).png");
+  background-repeat: no-repeat;
+
+}
+#black {
+  background-color: black;
+}
+div {
+  background-color: white;
+  text-align: center;
+
+}
+/* .players {
+  margin: 130px auto;
+  height: 630px;
+  width: 630px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 99px;
+  width: 99px;
+  background-color: blue;
+  color: white;
+  border-style: solid;
+  border-color: black;
+} */
+
+.container {
+  margin: 130px auto;
+  height: 630px;
+  width: 630px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px solid red;
+      border-radius: 8px;
+}
+.square{
+  height: 99px;
+  width: 99px;
+  background-color: blue;
+  color: white;
+
+  border-style: solid;
+  border-color: black;
+}
+/* img {
+  margin-top: 14px;
+margin-right: 1px;
+    width: 67%;
+} */
