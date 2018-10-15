@@ -1,16 +1,36 @@
 
 body {
-  background-color: blue;
+  background-color: black;
+
 }
+.hide-now {
+  display: none;
+}
+
 .guy {
-  background-image: url("images/Pennywise-icon.png");
+  background-image: url("images/Jason-icon (1).png");
   background-repeat: no-repeat;
 
 }
 .guy2 {
-  background-image: url("images/Male-Face-B5-icon (1).png");
+  background-image: url("images/Male-Face-B5-icon (2).png");
   background-repeat: no-repeat;
-
+}
+.guy3 {
+  background-image: url("images/Female-Face-FB-3-icon.png");
+  background-repeat: no-repeat;
+}
+.guy4 {
+  background-image: url("images/Female-Face-FD-2-dark-icon.png");
+  background-repeat: no-repeat;
+}
+.guy5 {
+  background-image: url("images/Male-Face-H5-icon.png");
+  background-repeat: no-repeat;
+}
+.guy6 {
+  background-image: url("images/Male-Face-E1-icon.png");
+  background-repeat: no-repeat;
 }
 #black {
   background-color: black;
@@ -36,18 +56,20 @@ div {
 
 .container {
   margin: 130px auto;
-  height: 630px;
-  width: 630px;
+  height: 550px;
+    width: 605px;
   display: flex;
   flex-wrap: wrap;
   border: 10px solid red;
       border-radius: 8px;
+
 }
 .square{
-  height: 99px;
-  width: 99px;
+  height: 49px;
+    width: 49px;
   background-color: blue;
   color: white;
+      font-size: 8px;
 
   border-style: solid;
   border-color: black;
