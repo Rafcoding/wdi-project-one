@@ -7,23 +7,25 @@
   <title></title>
 </head>
 <body>
-  <embed name="GoodEnough" src="sounds/Bells-of-Weirdness.mp3" loop="false" hidden="true" autostart="true">
-    <header id="offset">
-      <h2>The Maze</h2>
-      <h1>"Halloween Edition"</h1>
-    </header>
-    <div class="instructions">
-      <p>INSTRUCTIONS: Use the arrow keys to help your favourite killer...</p>
+  <embed name="horror-music" src="sounds/Bells-of-Weirdness.mp3" loop="true" hidden="true" autostart="true" />
+  <header id="offset">
+    <h2>The Maze</h2>
+    <h1>"Halloween Edition"</h1>
+  </header>
+  <div class="instructions">
+    <p>INSTRUCTIONS: Use the arrow keys to help your favourite killer...</p>
+    <p>...Police is the area</p>
 
-      <h2 class="pick">PICK YOUR KILLER</h2>
-    </div>
+    <h2 class="pick">PICK YOUR KILLER TO START</h2>
+  </div>
 
-    <div  class="players">
-      <div class="jason"><img src='images/Jason-icon.png'></div>
-      <div class="chuckie"><img src='images/Chuckie-icon.png'></div>
-      <div class="scream"><img src='images/scream.png'></div>
-      <div class="penny"><img src='images/Pennywise-icon.png'></div>
+  <div  class="players">
+    <a href="./index.html"><div class="jason"><img src='images/Jason-icon.png'></div></a>
+    <a href="./index.html"><div class="chuckie"><img src='images/Chuckie-icon.png'></div></a>
+    <div class="scream"><img src='images/scream.png'></div>
+    <div class="penny"><img src='images/Pennywise-icon.png'></div>
 
-    </div>
-  </body>
-  </html>
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
