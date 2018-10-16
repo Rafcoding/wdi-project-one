@@ -1,173 +1,174 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Akronim|Butcherman|Creepster|Eater|Jolly+Lodger|Nosifer" rel="stylesheet">
-    <title>Maze Halloween Edition</title>
-  </head>
-  <body>
-    <section class="intro-page">
-      <div id="wrapper">
-  <div id="spiderman">
-    <div class="head">
-      <div class="eye-left"></div>
-      <div class="eye-right"></div>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Akronim|Butcherman|Creepster|Eater|Jolly+Lodger|Nosifer" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Faster+One|Knewave|Shojumaru" rel="stylesheet">
+  <title>Maze Halloween Edition</title>
+</head>
+<body>
+  <section class="intro-page">
+    <div id="wrapper">
+      <div id="spiderman">
+        <div class="head">
+          <div class="eye-left"></div>
+          <div class="eye-right"></div>
+        </div>
+        <div class="body">
+          <div class="spider"></div>
+          <div class="arm-left"></div>
+          <div class="arm-right"></div>
+        </div>
+        <div class="legs">
+          <div class="boot-left"></div>
+          <div class="boot-right"></div>
+        </div>
+      </div>
     </div>
-    <div class="body">
-      <div class="spider"></div>
-      <div class="arm-left"></div>
-      <div class="arm-right"></div>
+
+    <embed name="horror-music" src="sounds/Bells-of-Weirdness.mp3" loop="true" hidden="true" autostart="true"/>
+    <header id="offset">
+      <h2>The Maze</h2>
+      <h1>"Halloween Edition"</h1>
+    </header>
+    <div class="instructions">
+      <p>INSTRUCTIONS: Use the arrow keys to help your favourite killer...</p>
+      <p>...and be aware that Spiderman is in the area!</p>
+
+      <h2 class="pick">PICK YOUR KILLER TO START</h2>
     </div>
-    <div class="legs">
-      <div class="boot-left"></div>
-      <div class="boot-right"></div>
+
+
+
+    <div  class="players">
+      <button class="character-button"><div id="jason" class="jason"><img src='images/Jason-icon.png' value="PLAY"  onmouseover="play()"><audio><source src="sounds/chainsaw (1).wav"></source></audio></div></button>
+      <button class="character-button"><div class="chuckie"><img src='images/Chuckie-icon.png'></div></button>
+      <button class="character-button"><div class="scream"><img src='images/scream.png'></div></button>
+      <button class="character-button"><div class="penny"><img src='images/Pennywise-icon.png'></div></button>
+
     </div>
-  </div>
-</div>
+  </section>
+  <section class="main-page">
+    <div><p class="timer">You got <span class="timer" id="countdowntimer">20</span> Seconds to Kill them all!!!!</p></div>
 
-      <!-- <embed name="horror-music" src="sounds/Bells-of-Weirdness.mp3" loop="true" hidden="true" autostart="true" /> -->
-      <header id="offset">
-        <h2>The Maze</h2>
-        <h1>"Halloween Edition"</h1>
-      </header>
-      <div class="instructions">
-        <p>INSTRUCTIONS: Use the arrow keys to help your favourite killer...</p>
-        <p>...and be aware that Spiderman is the area</p>
+    <div class="container">
+      <div class="square">1</div>
+      <div id="black" class="square">2</div>
+      <div class="square">3</div>
+      <div class="square">4</div>
+      <div class="square">5</div>
+      <div class="square">6</div>
+      <div class="square">7</div>
+      <div class="square">8</div>
+      <div class="square">9</div>
+      <div class="square">10</div>
+      <div class="square">11</div>
+      <div class="square">12</div>
+      <div id="black" class="square">13</div>
+      <div  class="square">14</div>
+      <div id="black"class="square">15</div>
+      <div  id="black"class="square">16</div>
+      <div id="black"class="square">17</div>
+      <div id="black"class="square">18</div>
+      <div class="square">19</div>
+      <div id="black" class="square">20</div>
+      <div class="square">21</div>
+      <div  class="square">22</div>
+      <div class="square">23</div>
+      <div id="black"class="square">24</div>
+      <div class="square">25</div>
+      <div  id="black"class="square">26</div>
+      <div  id="black"class="square">27</div>
+      <div  id="black"class="square">28</div>
+      <div id="black"class="square">29</div>
+      <div class="square">30</div>
+      <div id="black"class="square">31</div>
+      <div id="black" class="square">32</div>
+      <div class="square">33</div>
+      <div class="square">34</div>
+      <div class="square">35</div>
+      <div class="square">36</div>
+      <div class="square">37</div>
+      <div class="square">38</div>
+      <div class="square">39</div>
+      <div class="square">40</div>
+      <div class="square">41</div>
+      <div class="square">42</div>
+      <div class="square">43</div>
+      <div class="square">44</div>
+      <div  class="square">45</div>
+      <div  class="square">46</div>
+      <div id="black" class="square">47</div>
+      <div id="black"class="square">48</div>
+      <div class="square">49</div>
+      <div class="square">50</div>
+      <div class="square">51</div>
+      <div class="square">52</div>
+      <div class="square">53</div>
+      <div class="square">54</div>
+      <div class="square">55</div>
+      <div class="square">56</div>
+      <div class="square">57</div>
+      <div id="black"class="square">58</div>
+      <div class="square">59</div>
+      <div class="square">60</div>
+      <div class="square">61</div>
+      <div class="square">62</div>
+      <div class="square">63</div>
+      <div id="black"class="square">64</div>
+      <div class="square">65</div>
+      <div class="square">66</div>
+      <div id="black"class="square">67</div>
+      <div id="black"class="square">68</div>
+      <div id="black"class="square">69</div>
+      <div id="black"class="square">70</div>
+      <div class="square">71</div>
+      <div class="square">72</div>
+      <div class="square">73</div>
+      <div class="square">74</div>
+      <div id="black"class="square">75</div>
+      <div class="square">76</div>
+      <div class="square">77</div>
+      <div class="square">78</div>
+      <div class="square">79</div>
+      <div class="square">80</div>
+      <div class="square">81</div>
+      <div class="square">82</div>
+      <div class="square">83</div>
+      <div class="square">84</div>
+      <div class="square">85</div>
+      <div id="black"class="square">86</div>
+      <div id="black"class="square">87</div>
+      <div class="square">88</div>
+      <div class="square">89</div>
+      <div class="square">90</div>
+      <div id="black"class="square">91</div>
+      <div id="black"class="square">92</div>
+      <div id="black"class="square">93</div>
+      <div id="black"class="square">94</div>
+      <div class="square">95</div>
+      <div class="square">96</div>
+      <div id="black"class="square">97</div>
+      <div class="square">98</div>
+      <div class="square">99</div>
+      <div class="square">100</div>
+      <div class="square">101</div>
+      <div class="square">102</div>
+      <div class="square">103</div>
+      <div class="square">104</div>
+      <div class="square">105</div>
+      <div class="square">106</div>
+      <div class="square">107</div>
+      <div id="black"class="square">108</div>
+      <div class="square">109</div>
+      <div class="square">110</div>
 
-        <h2 class="pick">PICK YOUR KILLER TO START</h2>
-      </div>
-
-      <div  class="players">
-        <button class="character-button"><div class="jason"><img src='images/Jason-icon.png'></div></button>
-        <button class="character-button"><div class="chuckie"><img src='images/Chuckie-icon.png'></div></button>
-        <button class="character-button"><div class="scream"><img src='images/scream.png'></div></button>
-        <button class="character-button"><div class="penny"><img src='images/Pennywise-icon.png'></div></button>
-
-      </div>
-    </section>
-    <section class="main-page">
-      <div class="timer">
-
-      </div>
-
-      <div class="container">
-        <div class="square">1</div>
-        <div id="black" class="square">2</div>
-        <div class="square">3</div>
-        <div class="square">4</div>
-        <div class="square">5</div>
-        <div class="square">6</div>
-        <div class="square">7</div>
-        <div class="square">8</div>
-        <div class="square">9</div>
-        <div class="square">10</div>
-        <div class="square">11</div>
-        <div class="square">12</div>
-        <div id="black" class="square">13</div>
-        <div  class="square">14</div>
-        <div id="black"class="square">15</div>
-        <div  id="black"class="square">16</div>
-        <div id="black"class="square">17</div>
-        <div id="black"class="square">18</div>
-        <div class="square">19</div>
-        <div id="black" class="square">20</div>
-        <div class="square">21</div>
-        <div  class="square">22</div>
-        <div class="square">23</div>
-        <div id="black"class="square">24</div>
-        <div class="square">25</div>
-        <div  id="black"class="square">26</div>
-        <div  id="black"class="square">27</div>
-        <div  id="black"class="square">28</div>
-        <div id="black"class="square">29</div>
-        <div class="square">30</div>
-        <div id="black"class="square">31</div>
-        <div id="black" class="square">32</div>
-        <div class="square">33</div>
-        <div class="square">34</div>
-        <div class="square">35</div>
-        <div class="square">36</div>
-        <div class="square">37</div>
-        <div class="square">38</div>
-        <div class="square">39</div>
-        <div class="square">40</div>
-        <div class="square">41</div>
-        <div class="square">42</div>
-        <div class="square">43</div>
-        <div class="square">44</div>
-        <div  class="square">45</div>
-        <div  class="square">46</div>
-        <div id="black" class="square">47</div>
-        <div id="black"class="square">48</div>
-        <div class="square">49</div>
-        <div class="square">50</div>
-        <div class="square">51</div>
-        <div class="square">52</div>
-        <div class="square">53</div>
-        <div class="square">54</div>
-        <div class="square">55</div>
-        <div class="square">56</div>
-        <div class="square">57</div>
-        <div id="black"class="square">58</div>
-        <div class="square">59</div>
-        <div class="square">60</div>
-        <div class="square">61</div>
-        <div class="square">62</div>
-        <div class="square">63</div>
-        <div id="black"class="square">64</div>
-        <div class="square">65</div>
-        <div class="square">66</div>
-        <div id="black"class="square">67</div>
-        <div id="black"class="square">68</div>
-        <div id="black"class="square">69</div>
-        <div id="black"class="square">70</div>
-        <div class="square">71</div>
-        <div class="square">72</div>
-        <div class="square">73</div>
-        <div class="square">74</div>
-        <div id="black"class="square">75</div>
-        <div class="square">76</div>
-        <div class="square">77</div>
-        <div class="square">78</div>
-        <div class="square">79</div>
-        <div class="square">80</div>
-        <div class="square">81</div>
-        <div class="square">82</div>
-        <div class="square">83</div>
-        <div class="square">84</div>
-        <div class="square">85</div>
-        <div id="black"class="square">86</div>
-        <div id="black"class="square">87</div>
-        <div class="square">88</div>
-        <div class="square">89</div>
-        <div class="square">90</div>
-        <div id="black"class="square">91</div>
-        <div id="black"class="square">92</div>
-        <div id="black"class="square">93</div>
-        <div id="black"class="square">94</div>
-        <div class="square">95</div>
-        <div class="square">96</div>
-        <div id="black"class="square">97</div>
-        <div class="square">98</div>
-        <div class="square">99</div>
-        <div class="square">100</div>
-        <div class="square">101</div>
-        <div class="square">102</div>
-        <div class="square">103</div>
-        <div class="square">104</div>
-        <div class="square">105</div>
-        <div class="square">106</div>
-        <div class="square">107</div>
-        <div id="black"class="square">108</div>
-        <div class="square">109</div>
-        <div class="square">110</div>
-
-      </div>
-    </section>
+    </div>
+  </section>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
-<script src="app.js" charset="utf-8"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
 </html>

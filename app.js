@@ -2,6 +2,7 @@
 
 const board = [true, false, true, true, true, true, true, true, true, true, true,
   true, false, true, false, false, false, false, true, false, true, true, true,false, true, false, false, false, false, true, false, false, true, true, true, true, true, true, true,true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, false, true, true, false, false, false, false, true, true, true, true, false, true, true, true, true, true, true, true, true,true, true, false, false, true, true, true, false, false, false, false, true, true, false, true, true, true, true, true, true, true, true, true, true, false, true, true];
+
 let character; // Store the chosen character
 
 const characterButtons = document.querySelectorAll('.character-button');
@@ -10,7 +11,8 @@ characterButtons.forEach(button => {
     document.querySelector('.intro-page').style.zIndex = -1;
     character = event.target.getAttribute('src');
     moveGuy(guyPos);
-    console.log('clicked on', character);
+    
+
   });
 });
 
@@ -19,7 +21,6 @@ window.addEventListener('keydown', function(event) {
   if (event.which === 38) {
     event.preventDefault();
     moveUp();
-
   } else if (event.which === 40) {
     event.preventDefault();
     moveDown();
@@ -32,20 +33,17 @@ window.addEventListener('keydown', function(event) {
   }
 });
 
-// const $allSquares = $('.square');
-
 const guy2Pos = 109;
 const guy3Pos = 20;
 const guy4Pos = 58;
 const guy5Pos = 89;
 const guy6Pos = 52;
-let spidermanPos = Math.floor(Math.random()*110);
+const spidermanPos = Math.floor(Math.random()*110);
+
 const spiderman = document.querySelectorAll('.square')[spidermanPos];
 spiderman.classList.add('spiderman');
-const moveSpiderMan = setInterval(function(){
 
-}, 500);
-
+//People
 const guy2 = document.querySelectorAll('.square')[guy2Pos];
 guy2.classList.add('guy2');
 const guy3 = document.querySelectorAll('.square')[guy3Pos];
@@ -57,6 +55,7 @@ guy5.classList.add('guy5');
 const guy6 = document.querySelectorAll('.square')[guy6Pos];
 guy6.classList.add('guy6');
 
+//Killer
 let guyPos = 0;
 let guy1 = document.querySelectorAll('.square')[guyPos];
 
@@ -108,18 +107,11 @@ function moveGuy(newPos) {
   guyPos = newPos;
 }
 
-// const jason = {className: 'jason', image: url('images/Jason-icon (1).png')};
-// const chuckie = {className: 'chuckie', image: url('images/Chuckie-icon (1).png')};
-// const scream  = {className: 'scream', image: url('images/Ghostface-icon.png')};
-// const pennywise = {className: 'penny', image: url('images/Pennywise-icon (1).png')};
-
-// const startGame(){
-//   // pickYourKiller
-//   // startTimer
-//
-// // }
-// document.getElementsByClassName("killers").addEventListener("click", characterSelected);
-//
-// function characterSelected() {
-//     document.getElementsByClassName("killers").innerHTML = ;
-// }
+//timer
+let timeleft = 20;
+const downloadTimer = setInterval(function(){
+  timeleft--;
+  document.getElementById('countdowntimer').textContent = timeleft;
+  if(timeleft <= 0)
+    clearInterval(downloadTimer);
+},1000);

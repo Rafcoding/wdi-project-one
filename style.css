@@ -11,6 +11,7 @@ section {
   background-color: black;
 }
 
+
 .intro-page {
   z-index: 1;
   width: 100%;
@@ -20,6 +21,7 @@ section {
 
 .main-page {
   z-index: 0;
+  position: absolute;
 }
 
 h1 {
@@ -58,7 +60,7 @@ header {
   margin: 85px;
 }
 .pick{
-  margin-top: 65px;
+  margin-top: 85px;
   margin-bottom: 50px;
 }
 
@@ -145,7 +147,11 @@ button {
   border-style: solid;
   border-color: black;
 }
-
+.timer {
+  margin-top: 49px;
+  margin-bottom: -93px;
+  font-size: 37px;
+}
 
 #offset {
   animation: letter-flicker 2s linear infinite;
@@ -193,7 +199,7 @@ button {
 }
 
 span {
-  color: white;
+  color: red;
 }
 #wrapper {
   position: absolute;
