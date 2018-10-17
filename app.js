@@ -138,7 +138,7 @@ function moveGuy(newPos) {
 }
 
 //timer
-let timeleft = 25;
+let timeleft = 20;
 
 function handleMouseOver(domElement) {
   console.log(domElement.className);
