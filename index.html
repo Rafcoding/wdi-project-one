@@ -27,22 +27,22 @@
       </div>
     </div>
 
-    <embed name="horror-music" src="sounds/Bells-of-Weirdness.mp3" loop="true" hidden="true" autostart="true"/>
+    <!-- <embed name="horror-music" src="sounds/Bells-of-Weirdness.mp3" loop="true" hidden="true" autostart="true"/> -->
     <header id="offset">
       <h2>The Maze</h2>
       <h1>"Halloween Edition"</h1>
     </header>
     <div class="instructions">
       <p>INSTRUCTIONS: Use the arrow keys to help your favourite killer...</p>
-      <p>...and be aware that Spiderman is in the area!</p>
+      <p>...and be aware that <span class="spider"> SPIDER-MAN </span> is in the area!</p>
 
       <h2 class="pick">PICK YOUR KILLER TO START</h2>
     </div>
-
+<audio id="haha" src="sounds/AAAGH1.wav"></audio>
 <audio id="jason" src="sounds/chainsaw (1).wav"></audio>
 <audio id="chuckie" src="sounds/wickedwitchlaugh.wav"></audio>
-<audio id="scream" src="sounds/chainsaw (1).wav"></audio>
-<audio id="penny" src="sounds/chainsaw (1).wav"></audio>
+<audio id="scream" src="sounds/I_will_kill_you-Grandpa-13673816.wav"></audio>
+<audio id="penny" src="sounds/Evil Yelling-SoundBible.com-1774362373.wav"></audio>
 
 
     <div  class="players">
@@ -54,7 +54,7 @@
     </div>
   </section>
   <section class="main-page">
-    <div><p class="timer">You got <span class="timer" id="countdowntimer">20</span> Seconds to Kill them all!!!!</p></div>
+    <div><p class="timer">You got <span class="spantimer" id="countdowntimer">20</span> Seconds to Kill them all!!!!</p></div>
 
     <div class="container">
       <div class="square">1</div>
@@ -171,7 +171,10 @@
     </div>
   </section>
 
+<div class="congrats">
+  <p class="congrats-text">Congratulations Killer!!</p>
 
+</div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
   <script src="app.js" charset="utf-8"></script>
 </body>

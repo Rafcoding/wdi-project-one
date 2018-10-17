@@ -4,7 +4,7 @@ const board = [true, false, true, true, true, true, true, true, true, true, true
   true, false, true, false, false, false, false, true, false, true, true, true,false, true, false, false, false, false, true, false, false, true, true, true, true, true, true, true,true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, false, true, true, false, false, false, false, true, true, true, true, false, true, true, true, true, true, true, true, true,true, true, false, false, true, true, true, false, false, false, false, true, true, false, true, true, true, true, true, true, true, true, true, true, false, true, true];
 
 let character; // Store the chosen character
-
+const killingSound = document.querySelector('#haha');
 const characterButtons = document.querySelectorAll('.character-button');
 characterButtons.forEach(button => {
   button.addEventListener('click', (event) => {
@@ -107,14 +107,24 @@ function moveTo(newPos) {
     return false;
   }
 }
-
+let numberOfDead = 0;
 function guysKilled(){
   if (guy1.classList.contains('guy2') || guy1.classList.contains('guy3') || guy1.classList.contains('guy4') || guy1.classList.contains('guy5') || guy1.classList.contains('guy6')) {
-    alert('u got him!!');
+    // alert('u got him!!');
+    killingSound.play();
+    numberOfDead++;
+    if(numberOfDead === 5){
+      document.querySelector('.congrats').style.zIndex = '2';
+      document.querySelector('.congrats-text').style.zIndex = '2';
+    }
+    console.log(numberOfDead);
     guy1.className = '';
     guy1.classList.add('square');
     guy1.classList.add('guy');
   }
+}
+function endOfGame(){
+
 }
 
 function moveGuy(newPos) {
@@ -128,7 +138,7 @@ function moveGuy(newPos) {
 }
 
 //timer
-let timeleft = 20;
+let timeleft = 25;
 
 function handleMouseOver(domElement) {
   console.log(domElement.className);
