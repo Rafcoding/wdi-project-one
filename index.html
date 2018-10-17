@@ -39,13 +39,17 @@
       <h2 class="pick">PICK YOUR KILLER TO START</h2>
     </div>
 
+<audio id="jason" src="sounds/chainsaw (1).wav"></audio>
+<audio id="chuckie" src="sounds/wickedwitchlaugh.wav"></audio>
+<audio id="scream" src="sounds/chainsaw (1).wav"></audio>
+<audio id="penny" src="sounds/chainsaw (1).wav"></audio>
 
 
     <div  class="players">
-      <button class="character-button"><div id="jason" class="jason"><img src='images/Jason-icon.png' value="PLAY"  onmouseover="play()"><audio><source src="sounds/chainsaw (1).wav"></source></audio></div></button>
-      <button class="character-button"><div class="chuckie"><img src='images/Chuckie-icon.png'></div></button>
-      <button class="character-button"><div class="scream"><img src='images/scream.png'></div></button>
-      <button class="character-button"><div class="penny"><img src='images/Pennywise-icon.png'></div></button>
+      <button class="character-button"><div onmouseover="handleMouseOver(this)" class="jason"><img src='images/Jason-icon.png'></div></button>
+      <button class="character-button"><div onmouseover="handleMouseOver(this)" class="chuckie"><img src='images/Chuckie-icon.png'></div></button>
+      <button class="character-button"><div onmouseover="handleMouseOver(this)" class="scream"><img src='images/scream.png'></div></button>
+      <button class="character-button"><div onmouseover="handleMouseOver(this)" class="penny"><img src='images/Pennywise-icon.png'></div></button>
 
     </div>
   </section>

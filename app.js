@@ -11,10 +11,33 @@ characterButtons.forEach(button => {
     document.querySelector('.intro-page').style.zIndex = -1;
     character = event.target.getAttribute('src');
     moveGuy(guyPos);
-    
+    const downloadTimer = setInterval(function(){
+      timeleft--;
+      document.getElementById('countdowntimer').textContent = timeleft;
+      if(timeleft === 0){
+        //add do something if time is 0.
+        //stop keys
+        // different screen game over, etc
+        clearInterval(downloadTimer);
+      }
+
+      const spidermanPos = Math.floor(Math.random()*110);
+      const allSquares = document.querySelectorAll('.square');
+      allSquares.forEach(square => {
+        if (square.classList.contains('spiderman')) {
+          square.classList.remove('spiderman');
+        }
+      });
+      const spiderman = document.querySelectorAll('.square')[spidermanPos];
+
+      spiderman.classList.add('spiderman');
+
+    },1000);
 
   });
 });
+
+
 
 window.addEventListener('keydown', function(event) {
 
@@ -38,10 +61,7 @@ const guy3Pos = 20;
 const guy4Pos = 58;
 const guy5Pos = 89;
 const guy6Pos = 52;
-const spidermanPos = Math.floor(Math.random()*110);
 
-const spiderman = document.querySelectorAll('.square')[spidermanPos];
-spiderman.classList.add('spiderman');
 
 //People
 const guy2 = document.querySelectorAll('.square')[guy2Pos];
@@ -109,9 +129,10 @@ function moveGuy(newPos) {
 
 //timer
 let timeleft = 20;
-const downloadTimer = setInterval(function(){
-  timeleft--;
-  document.getElementById('countdowntimer').textContent = timeleft;
-  if(timeleft <= 0)
-    clearInterval(downloadTimer);
-},1000);
+
+function handleMouseOver(domElement) {
+  console.log(domElement.className);
+  const characterName = domElement.className;
+  const audio = document.getElementById(characterName);
+  audio.play();
+}
