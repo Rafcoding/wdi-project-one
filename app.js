@@ -3,9 +3,11 @@
 const board = [true, false, true, true, true, true, true, true, true, true, true,
   true, false, true, false, false, false, false, true, false, true, true, true,false, true, false, false, false, false, true, false, false, true, true, true, true, true, true, true,true, true, true, true, true, true, true, false, false, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, false, true, true, false, false, false, false, true, true, true, true, false, true, true, true, true, true, true, true, true,true, true, false, false, true, true, true, false, false, false, false, true, true, false, true, true, true, true, true, true, true, true, true, true, false, true, true];
 
+let timeleft = 25;
 let character; // Store the chosen character
 const killingSound = document.querySelector('#haha');
 const characterButtons = document.querySelectorAll('.character-button');
+
 characterButtons.forEach(button => {
   button.addEventListener('click', (event) => {
     document.querySelector('.intro-page').style.zIndex = -1;
@@ -14,12 +16,12 @@ characterButtons.forEach(button => {
     const downloadTimer = setInterval(function(){
       timeleft--;
       document.getElementById('countdowntimer').textContent = timeleft;
-      if(timeleft === 0){
-        //add do something if time is 0.
-        //stop keys
-        // different screen game over, etc
-        clearInterval(downloadTimer);
-      }
+      // if(timeleft === 0){
+      //   //add do something if time is 0.
+      //   //stop keys
+      //   // different screen game over, etc
+      //   clearInterval(downloadTimer);
+      // }
 
       const spidermanPos = Math.floor(Math.random()*110);
       const allSquares = document.querySelectorAll('.square');
@@ -29,11 +31,8 @@ characterButtons.forEach(button => {
         }
       });
       const spiderman = document.querySelectorAll('.square')[spidermanPos];
-
       spiderman.classList.add('spiderman');
-
     },1000);
-
   });
 });
 
@@ -115,17 +114,17 @@ function guysKilled(){
     numberOfDead++;
     if(numberOfDead === 5){
       document.querySelector('.congrats').style.zIndex = '2';
-      document.querySelector('.congrats-text').style.zIndex = '2';
+      // document.querySelector('.congrats-text').style.zIndex = '2';
     }
-    console.log(numberOfDead);
+    // console.log(numberOfDead);
     guy1.className = '';
     guy1.classList.add('square');
     guy1.classList.add('guy');
   }
 }
-function endOfGame(){
-
-}
+// function endOfGame(){
+//
+// }
 
 function moveGuy(newPos) {
   guy1.style.backgroundImage = '';
@@ -138,7 +137,7 @@ function moveGuy(newPos) {
 }
 
 //timer
-let timeleft = 20;
+
 
 function handleMouseOver(domElement) {
   console.log(domElement.className);

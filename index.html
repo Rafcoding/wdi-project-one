@@ -27,7 +27,11 @@
       </div>
     </div>
 
-    <embed name="horror-music" src="sounds/Bells-of-Weirdness.mp3" loop="3" hidden="true" autostart="true"/>
+    <!-- <embed name="horror-music" src="sounds/Bells-of-Weirdness.mp3" loop="3" hidden="true" autostart="true"/> -->
+    <!-- <audio name="horror-music" src="sounds/Bells-of-Weirdness.mp3" loop="3" hidden="true" autostart="true"/> -->
+<audio loop autoplay src="sounds/Bells-of-Weirdness.mp3">
+
+</audio>
     <header id="offset">
       <h2>The Horror Maze</h2>
       <h1>"Halloween Edition"</h1>
@@ -38,7 +42,7 @@
 
       <h2 class="pick">PICK YOUR KILLER TO START</h2>
     </div>
-    <audio id="haha" src="sounds/AAAGH1.wav"></audio>
+    <audio id="haha" src="sounds/screamandchoke.wav"></audio>
     <audio id="jason" src="sounds/chainsaw (1).wav"></audio>
     <audio id="chuckie" src="sounds/wickedwitchlaugh.wav"></audio>
     <audio id="scream" src="sounds/I_will_kill_you-Grandpa-13673816.wav"></audio>
@@ -55,7 +59,7 @@
   </section>
   <section class="main-page">
 
-    <div><p class="timer">You got <span class="spantimer" id="countdowntimer">20</span> Seconds to Kill them all!!!!</p></div>
+    <div><p class="timer">You got <span class="spantimer" id="countdowntimer">25</span> Seconds to Kill them all!!!!</p></div>
 
     <div class="container">
       <div class="square"></div>
@@ -173,9 +177,10 @@
   </section>
 
   <div class="congrats">
-    <h6 id="offset">Congratulations Killer!!</h6>
+    <h6 id="offset">Well done Killer!!</h6>
+    <p><span class="instru">thanks for playing this demo, <br> release date: HAlloween 2019'</span></p>
     <p><span class="instru">Created by Rafa Ruiz</span></p>
-<!-- </span><span class="spider">  -->
+    <!-- </span><span class="spider">  -->
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
   <script src="app.js" charset="utf-8"></script>
