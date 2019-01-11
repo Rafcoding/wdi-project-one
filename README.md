@@ -1,9 +1,7 @@
 # WDI Project 1 -The Horror Maze: 'Halloween Edition'
 
 
-## Project Overview and Motivation
-
-As halloween was about I though to do a game based on that theme.
+## Overview
 
 The Horror Maze, 'Halloween Edition' was my first project as part of the General Assembly Web Development Immersive course. The objective was to build a single page grid based game using HTML5, CSS3 and JavaScript.
 
@@ -27,31 +25,35 @@ Go to [Gameplay](https://rafcoding.github.io/wdi-project-one/) and [GitHub](http
 The player has a certain amount of time to complete each level, the aim is  killing all pedestrians on the level and scape from Spiderman.
 
 # Styling and Idea
-As Halloween is coming...time for scary things, games, movies and some cool stuff.
-using google fonts, css animations, music and sounds to built the creepy...
 
-# Characters
+As Halloween was coming...time for scary things, games, movies and some cool stuff.
 
-#### Jason, Chucky, Scream, Pennywise
+I though to do a game based on that theme, using horror characters and scary music and sounds.
 
-![Killers](screenshots/killers.png)
+I have used different google fonts, css animations, music and sounds to achieve that.
+
+##  Characters
+
+#### Jason, Chuckie, Scream and Pennywise...
+
+![Killers](images/Jason-icon.png) ![](images/Chuckie-icon.png) ![](images/scream.png) ![](images/Pennywise-icon.png)
 
 The most famous serial killers from the horror movies.
 
 They can move around using the keyboard arrow keys. When they walk over a pedestrians a short scream happens meaning the kill and the pedestrians are removed from the game.
 
-#### and Spiderman
+#### ... and Spiderman
 
 
 
-![Killers](images/spiderman.png) ![](images/spiderman.png)
+![Killers](images/spiderman.png)
 
 
 
 As a Superhero trying to save the pedestrians.
 
 
-Spiderman move randomly and he is able to move anywhere on the grid, streets and roofs.
+Spiderman moves randomly and he is able to go anywhere on the grid, streets and roofs.
 
 
 
