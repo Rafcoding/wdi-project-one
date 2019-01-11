@@ -42,7 +42,11 @@ They can move around using the keyboard arrow keys. When they walk over a pedest
 
 #### and Spiderman
 
-![Killers](screenshots/spiderman.png)
+
+
+![Killers](images/spiderman.png) ![](images/spiderman.png)
+
+
 
 As a Superhero trying to save the pedestrians.
 
