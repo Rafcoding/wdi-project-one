@@ -52,7 +52,7 @@ A scary shout is heard on mouse over on the over on the welcome page.
 
 
 
-They can move around using the keyboard arrow keys. When they walk over a pedestrians a short scream happens meaning the kill and the pedestrians are removed from the game.
+
 
 #### ... and Spiderman ![Killers](images/spiderman.png)
 
@@ -60,14 +60,16 @@ They can move around using the keyboard arrow keys. When they walk over a pedest
 
 As a Superhero trying to save the pedestrians.
 
-Spiderman moves randomly and he is able to go anywhere on the grid, streets and roofs.
-
 
 
 
 
 ## Game screenshots
 ![Intro page](screenshots/horrormaze.png)
+
+They can move around using the keyboard arrow keys. When they walk over a pedestrians a short scream happens meaning the kill and the pedestrians are removed from the game.
+
+Spiderman moves randomly and he is able to go anywhere on the grid, streets and roofs.
 
 ![game page](screenshots/gameplay.png)
 
