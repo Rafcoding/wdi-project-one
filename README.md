@@ -1,7 +1,7 @@
 # WDI Project 1 -The Horror Maze: 'Halloween Edition'
 
 
-## Overview
+# Overview
 
 The Horror Maze, 'Halloween Edition' was my first project as part of the General Assembly Web Development Immersive course. The objective was to build a single page grid based game using HTML5, CSS3 and JavaScript.
 
@@ -26,32 +26,39 @@ The player has a certain amount of time to complete each level, the aim is  kill
 
 # Styling and Idea
 
-As Halloween was coming...time for scary things, games, movies and some cool stuff.
+As Halloween was coming, it was time for scary things like games, movies and other cool and scary stuff.
 
 I though to do a game based on that theme, using horror characters and scary music and sounds.
 
-I have used different google fonts, css animations, music and sounds to achieve that.
+I have used different google fonts, css animations, music and sounds to achieve the scariness.
 
-##  Characters
+#  Characters
 
-#### Jason, Chuckie, Scream and Pennywise...
+#### The most famous serial killers from the horror movies.
 
-![Killers](images/Jason-icon.png) ![](images/Chuckie-icon.png) ![](images/scream.png) ![](images/Pennywise-icon.png)
+####   ![Jason](images/Jason-icon.png) Jason
+A chainsaw is heard on mouse over on the over on the welcome page.
 
-The most famous serial killers from the horror movies.
+#### Chuckie ![Chuckie](images/Chuckie-icon.png)
+A scary laugh is heard on mouse over on the over on the welcome page.
+
+####  ![Scream](images/scream.png) Scream
+A scary phrase is heard on mouse over on the over on the welcome page.
+
+#### Pennywise ![Pennywise](images/Pennywise-icon.png)
+A scary shout is heard on mouse over on the over on the welcome page.
+
+<!-- ![Killers](images/Jason-icon.png) ![](images/Chuckie-icon.png) ![](images/scream.png) ![](images/Pennywise-icon.png) -->
+
+
 
 They can move around using the keyboard arrow keys. When they walk over a pedestrians a short scream happens meaning the kill and the pedestrians are removed from the game.
 
-#### ... and Spiderman
-
-
-
-![Killers](images/spiderman.png)
+#### ... and Spiderman ![Killers](images/spiderman.png)
 
 
 
 As a Superhero trying to save the pedestrians.
-
 
 Spiderman moves randomly and he is able to go anywhere on the grid, streets and roofs.
 
