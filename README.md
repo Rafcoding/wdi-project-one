@@ -5,9 +5,9 @@
 
 As halloween was about I though to do a game based on that theme.
 
-The Horror Maze, "Halloween Edition" was my first project as part of the General Assembly Web Development Immersive course. The objective was to build a single page grid based game using HTML5, CSS3 and JavaScript.
+The Horror Maze, 'Halloween Edition' was my first project as part of the General Assembly Web Development Immersive course. The objective was to build a single page grid based game using HTML5, CSS3 and JavaScript.
 
-Web Site Heroku. GitHub Repo.
+Go to [Gameplay](https://rafcoding.github.io/wdi-project-one/) and [GitHub](https://github.com/Rafcoding/wdi-project-one).
 
 ## Timeframe
 
@@ -32,23 +32,26 @@ using google fonts, css animations, music and sounds to built the creepy...
 
 # Characters
 
-The most famous serial killers from the horror movies.
+#### Jason, Chucky, Scream, Pennywise
 
 ![Killers](screenshots/killers.png)
 
+The most famous serial killers from the horror movies.
+
+They can move around using the keyboard arrow keys. When they walk over a pedestrians a short scream happens meaning the kill and the pedestrians are removed from the game.
+
+#### and Spiderman
+
+![Killers](screenshots/spiderman.png)
+
+As a Superhero trying to save the pedestrians.
+
+
+Spiderman move randomly and he is able to move anywhere on the grid, streets and roofs.
 
 
 
 
-
-
-
-
-
-
-## Subtitle
-
-Link to [Google](www.google.com)
 
 ## Game screenshots
 ![Intro page](screenshots/horrormaze.png)
@@ -60,7 +63,7 @@ Link to [Google](www.google.com)
 
 ## Wins and Blockers
 
-Adding the audio, animation, images and timing events really brought the game to life. The addition of a computer player and alternative views when playing against it was also very rewarding (screen shot of the 1 player game below).
+Adding the audio, animation, images and timing events really brought the game to life. The addition of Spiderman chasing the killer was also very rewarding.
 
 As my first project, it was a challenge and big win building the game itself.
 
@@ -109,8 +112,9 @@ window.addEventListener('keydown', function(event) {
 
 ## Future Features
 
-* more levels
+* More levels or scenarios.
 * The player has a certain amount of time to complete each level, but more time may be gained by collecting bonuses or by murdering pedestrians...and scape from Spiderman...
-* more superheroes and more 'killers'
+* pedestrians moving around.
+* more sounds and more 'killers'
 * increase the difficulty level in each scenario.
 * a side showing your kills and getting points depending on the target.
