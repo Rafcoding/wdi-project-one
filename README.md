@@ -1,4 +1,30 @@
-# The Horror Maze: 'Halloween Edition'
+# WDI Project 1 -The Horror Maze: 'Halloween Edition'
+
+
+## Project Overview and Motivation
+
+As halloween was about I though to do a game based on that theme.
+
+The Horror Maze, "Halloween Edition" was my first project as part of the General Assembly Web Development Immersive course. The objective was to build a single page grid based game using HTML5, CSS3 and JavaScript.
+
+Web Site Heroku. GitHub Repo.
+
+## Timeframe
+
+1 week (October 2018)
+
+# Technologies Used
+
+* HTML5 with HTML5 audio
+* CSS3 with animation
+* JavaScript (ECMAScript 6)
+* Git
+* GitHub
+* Google Fonts
+* Atom
+
+
+
 
 # Grid
 It is a grid based game...
@@ -7,7 +33,9 @@ where you move a character...
 
 # Characters
 
-the most famous serial killers from the movies.
+The most famous serial killers from the horror movies.
+
+![Killers](screenshots/killers.png)
 
 # Aim of the game
 The player has a certain amount of time to complete each level, the aim is  killing all pedestrians on the level and scape from Spiderman.
@@ -78,16 +106,7 @@ window.addEventListener('keydown', function(event) {
 });
 ```
 
-# Technologies Used
 
-* HTML5 with HTML5 audio
-* CSS3 with animation
-* JavaScript (ECMAScript 6)
-* Git
-* GitHub
-* Google Fonts
-* Atom
-* ...
 
 # Future Features
 
