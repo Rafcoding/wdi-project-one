@@ -23,13 +23,12 @@ Web Site Heroku. GitHub Repo.
 * Google Fonts
 * Atom
 
+# Aim of the game
+The player has a certain amount of time to complete each level, the aim is  killing all pedestrians on the level and scape from Spiderman.
 
-
-
-# Grid
-It is a grid based game...
-where you move a character...
-
+# Styling and Idea
+As Halloween is coming...time for scary things, games, movies and some cool stuff.
+using google fonts, css animations, music and sounds to built the creepy...
 
 # Characters
 
@@ -37,15 +36,13 @@ The most famous serial killers from the horror movies.
 
 ![Killers](screenshots/killers.png)
 
-# Aim of the game
-The player has a certain amount of time to complete each level, the aim is  killing all pedestrians on the level and scape from Spiderman.
 
 
 
 
-# Styling and Idea
-As Halloween is coming...time for scary things, games, movies and some cool stuff.
-using google fonts, css animations, music and sounds to built the creepy...
+
+
+
 
 
 
@@ -53,21 +50,23 @@ using google fonts, css animations, music and sounds to built the creepy...
 
 Link to [Google](www.google.com)
 
-# Game screenshots
-![Intro page](screenshots/intro-page.png)
+## Game screenshots
+![Intro page](screenshots/horrormaze.png)
 
-![game page](screenshots/game.png)
+![game page](screenshots/gameplay.png)
 
-![last page](screenshots/finalpage.png)
+![last page](screenshots/welldone.png)
 
 
-# Wins and Blockers
+## Wins and Blockers
+
+Adding the audio, animation, images and timing events really brought the game to life. The addition of a computer player and alternative views when playing against it was also very rewarding (screen shot of the 1 player game below).
 
 As my first project, it was a challenge and big win building the game itself.
 
 Although it has few bugs i am happy with the end product.
 
-# Approach Taken
+## Approach Taken
 
 1. creating the grid
 1. work on key events with JavaScript
@@ -79,7 +78,7 @@ Although it has few bugs i am happy with the end product.
 
 
 
-# Code Snippets
+##Code Snippets
 `function (some code)`
 
 ```
@@ -108,7 +107,7 @@ window.addEventListener('keydown', function(event) {
 
 
 
-# Future Features
+## Future Features
 
 * more levels
 * The player has a certain amount of time to complete each level, but more time may be gained by collecting bonuses or by murdering pedestrians...and scape from Spiderman...
