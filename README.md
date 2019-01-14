@@ -91,12 +91,12 @@ Although it has few bugs i am happy with the end product.
 1. adding the characters
 1. working with javascript for the interactions and movements
 1. Adding Spiderman
-1. Creating the welcome page
-1. ...
+1. Creating the welcome page and final page.
 
 
 
-##Code Snippets
+
+## Code Snippets
 <!-- `function (some code)` -->
 Below JavaScript code allow the user to move the characters by pressing the direction keys on the keyboard.
 <!-- ```
@@ -106,7 +106,6 @@ Below JavaScript code allow the user to move the characters by pressing the dire
 ``` -->
 ```
 window.addEventListener('keydown', function(event) {
-
   if (event.which === 38) {
     event.preventDefault();
     moveUp();
