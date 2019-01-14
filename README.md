@@ -34,7 +34,7 @@ I have used different google fonts, css animations, music and sounds to achieve 
 
 #  Characters
 
-#### The most famous serial killers from the horror movies.
+#### The most famous serial killers from the horror movies and a Superhero.
 
 ####   ![Jason](images/Jason-icon.png) Jason
 A chainsaw is heard on mouse over on the over on the welcome page.
@@ -97,13 +97,13 @@ Although it has few bugs i am happy with the end product.
 
 
 ##Code Snippets
-`function (some code)`
-
-```
+<!-- `function (some code)` -->
+Below JavaScript code allow the user to move the characters by pressing the direction keys on the keyboard.
+<!-- ```
 [javascript] `function(){
   //some code
   }`
-```
+``` -->
 ```
 window.addEventListener('keydown', function(event) {
 
